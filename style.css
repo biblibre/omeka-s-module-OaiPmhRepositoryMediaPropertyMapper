@@ -1,0 +1,16 @@
+html {
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+}
