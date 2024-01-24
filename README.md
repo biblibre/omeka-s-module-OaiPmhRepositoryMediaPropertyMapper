@@ -5,7 +5,7 @@ This is a companion module for
 expose media properties as if they were part of the item.
 
 The complete documentation of OaiPmhRepositoryMediaPropertyMapper can be found
-at https://documentation.example.com/omeka-s/Foobar
+at https://biblibre.github.io/omeka-s-module-OaiPmhRepositoryMediaPropertyMapper
 
 ## Requirements
 
@@ -16,8 +16,8 @@ at https://documentation.example.com/omeka-s/Foobar
 
 1. [Add the module to Omeka S](https://omeka.org/s/docs/user-manual/modules/#adding-modules-to-omeka-s)
 2. In the module configuration page, add your mappings in the form
-   `<media property> -> <item property>` for instance
-   `dcterms:title -> dcterms:alternative` to expose media title as an
+   `<media property> = <item property>` for instance
+   `dcterms:title = dcterms:alternative` to expose media title as an
    alternative title.
    One mapping per line
 
